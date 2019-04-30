@@ -170,3 +170,44 @@ hr{
     margin-right: 10vw;
     margin-left: 10px;
 }
+
+
+.dataviz{
+	position:relative;
+	height: 660px;
+	img{
+		position:absolute;
+		top: 0;
+		left:0;
+		width: 100%;
+		height: auto;
+	}
+
+	.dataviz-wrapper{
+		position: relative;
+		top: auto;
+		left: auto;
+		transform: translate(0px,0px);
+	}
+	.dataviz-wrapper.dataviz-sticky{
+		position: fixed;
+		width: 100%;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+	.dataviz-wrapper.dataviz-past-sticky{
+		position: absolute;
+		top: auto;
+		left: 50%;
+		bottom: 0;
+		transform: translate(-50%,0);
+		width: 100%;
+	}
+}
+
+
+
+
+
+
