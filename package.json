@@ -43,5 +43,8 @@
       "./tasks/lib/browserify-less",
       "./tasks/lib/browserify-text"
     ]
+  },
+  "devDependencies": {
+    "stickyfilljs": "git+https://github.com/wilddeer/stickyfill.git"
   }
 }
